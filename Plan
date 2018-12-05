@@ -1,0 +1,62 @@
+1`Consider the different game components discussed so far and think
+ about how these components could be represented as objects (if you think they should be represented as objects).
+
+2`Brainstorm or write out responses on this page.
+
+3`Write down the classes you think this game should include.
+
+4`discuss your class choices in the Treehouse Community.
+
+
+To help you identify the different classes you might use in the development of this game, consider the following questions:
+
+1`What are the different components of a "Four in a Row" game? How do players interact with the game?
+Think about a physical version of the game, and see if that helps.
+
+2`Can you break down the game components into smaller, or individual parts? Do some components serve others?
+
+3`Where will you handle the game state and game logic: switching players, checking for winning moves, resetting the board, etc.?
+
+Properties:
+How will you differentiate between player objects? Will players have a name, or an ID? How would an ID be created or set?
+How will a player's tokens be stored? How many tokens should each player have? How will you store or set that number?
+How will each player's tokens be differentiated from the other player's, visually?
+What are some ways to keep track of whose turn it is?
+
+
+plan.
+1 components. the Board
+              counters/tokens
+              player moves
+
+
+2 properties.
+  Counters: left right and down arrow keys, the colour, interact with board and space, played:boolean, playerID,
+
+  Board : height width i.e. number of spaces, interact with counters
+
+  Players: different counter colours as name, keep score,
+
+  Space: one counter per space
+
+  Game: know that four counters (same colour) wins the game, keep turn by last counter colour placed
+
+
+3. reset, if the board is full or if the game is won
+
+plan.
+
+
+
+solution ; classes: Game, Player, Board, Space, Token
+
+solution ;
+Counters: 
+
+Board :
+
+Players: name, id, color, active, counters
+
+Space:
+
+Game:
